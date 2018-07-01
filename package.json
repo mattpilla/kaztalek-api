@@ -1,0 +1,17 @@
+{
+  "name": "kaztalek",
+  "version": "1.0.0",
+  "description": "personal website",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "author": "keeta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
