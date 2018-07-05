@@ -5,9 +5,9 @@ const port =  argv.p || argv.port || 51581;
 
 app.use(express.static('public'));
 
-app.get('/', (req, res) => {
-    res.send('hiya!');
-});
+// app.get('/', (req, res) => {
+//     res.send('hiya!');
+// });
 
 require('./redirects')(app);
 
