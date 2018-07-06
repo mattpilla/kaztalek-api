@@ -4,10 +4,11 @@ const argv = require('minimist')(process.argv.slice(2));
 const port =  argv.p || argv.port || 51581;
 
 app.use(express.static('public'));
+app.use(express.static('ui'));
 
-// app.get('/', (req, res) => {
-//     res.send('hiya!');
-// });
+app.get('/1pause', (req, res) => {
+    res.send('No.');
+});
 
 require('./redirects')(app);
 
