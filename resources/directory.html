@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- Overriding a copy of the template of serve-index: https://github.com/expressjs/serve-index -->
+<!-- Overriding the template of serve-index: https://github.com/expressjs/serve-index -->
 <html>
     <head>
         <meta charset="utf-8">
@@ -8,9 +8,11 @@
         <title>Index of {directory}</title>
         <style>{style}</style>
     </head>
-    <body class="directory">
-        <div id="wrapper">
-            <h1><a href="/">~</a>{linked-path}</h1>
+    <body>
+        <div id="directory-path">
+            <a href="/">~</a>{linked-path}
+        </div>
+        <div>
             {files}
         </div>
     </body>

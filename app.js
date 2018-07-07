@@ -7,7 +7,8 @@ const port =  process.env.PORT || 51581;
 app.use('/files', serveIndex('public/files', {
     icons: true,
     stylesheet: './resources/style.css',
-    template: './resources/directory.html'
+    template: './resources/directory.html',
+    view: 'details'
 }));
 app.use(express.static('public'));
 app.use(express.static('ui'));
