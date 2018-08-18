@@ -1,9 +1,11 @@
 require('dotenv').config();
 const express = require('express');
 const serveIndex = require('serve-index');
+const history = require('connect-history-api-fallback');
 const app = express();
 const port =  process.env.PORT || 51581;
 
+/* Order matters!! */
 app.use('/files', serveIndex('public/files', {
     icons: true,
     stylesheet: './resources/style.css',
@@ -11,6 +13,7 @@ app.use('/files', serveIndex('public/files', {
     view: 'details'
 }));
 app.use(express.static('public'));
+app.use(history());
 app.use(express.static('ui'));
 
 app.get('/1pause', (req, res) => {
