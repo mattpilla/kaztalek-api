@@ -13,14 +13,15 @@ app.use('/files', serveIndex('public/files', {
     view: 'details'
 }));
 app.use(express.static('public'));
-app.use(history());
-app.use(express.static('ui'));
 
 app.get('/1pause', (req, res) => {
     res.send('No.');
 });
 
 require('./routes/redirects')(app);
+
+app.use(history());
+app.use(express.static('ui'));
 
 app.listen(port, () => {
     console.log(`listening on port ${port}\nlets do this shit`);

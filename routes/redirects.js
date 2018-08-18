@@ -30,6 +30,10 @@ module.exports = app => {
     /*
      * ABC
      */
+    app.get('/abc/bk', (req, res) => {
+        res.redirect('https://docs.google.com/document/d/1XQxm5Rk8H02w1M318kM-cu6fNkFx9O0xrcJuz6OpEUQ/edit');
+    });
+
     app.get('/abc/dk64', (req, res) => {
         res.redirect('https://docs.google.com/spreadsheets/d/1Q3-CPZ77oZQnznpV9VRAeOxAHTiTTF7_-lJKB0-w5ts/edit#gid=1184089361');
     });
