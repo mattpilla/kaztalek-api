@@ -16,7 +16,7 @@ mkdir tmp;
 # Clone UI and build it
 cd tmp;
 git clone https://github.com/mattpilla/kaztalek-ui.git .;
-npm install;
+npm ci;
 npm run build;
 
 # Replace old UI build with new one
