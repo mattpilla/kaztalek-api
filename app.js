@@ -19,6 +19,8 @@ app.get('/1pause', (req, res) => {
 });
 
 require('./routes/redirects')(app);
+const api = require('./routes/api');
+app.use('/api', api);
 
 app.use(history());
 app.use(express.static('ui'));

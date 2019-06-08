@@ -41,11 +41,13 @@
     },
     {
         "redirect": "https://docs.google.com/document/d/1XQxm5Rk8H02w1M318kM-cu6fNkFx9O0xrcJuz6OpEUQ/edit",
-        "url": "/abc/bk"
+        "url": "/abc/bk",
+        "meta": ["abc"]
     },
     {
         "redirect": "https://docs.google.com/spreadsheets/d/1Q3-CPZ77oZQnznpV9VRAeOxAHTiTTF7_-lJKB0-w5ts/edit#gid=1184089361",
-        "url": "/abc/dk64"
+        "url": "/abc/dk64",
+        "meta": ["abc"]
     },
     {
         "redirect": "/abc/dk64",
@@ -53,46 +55,57 @@
     },
     {
         "redirect": "https://docs.google.com/spreadsheets/d/1gLjhpAfmfqF95YgfCe0wq2Ri5N4Au-lhR1lk1SKKtsQ/edit#gid=897413718",
-        "url": "/abc/mm"
+        "url": "/abc/mm",
+        "meta": ["abc"]
     },
     {
         "redirect": "https://sites.google.com/site/thezzazzglitch/home/a-button-challenge-movies",
-        "url": "/abc/rby"
+        "url": "/abc/rby",
+        "meta": ["abc"]
     },
     {
         "redirect": "https://docs.google.com/spreadsheets/d/1uRURAIl5ToN4uIg3sbCWQf7_3UsbXeeEodH30dQlWbo/edit#gid=1381357695",
-        "url": "/abc/sadx"
+        "url": "/abc/sadx",
+        "meta": ["abc"]
     },
     {
         "redirect": "https://docs.google.com/spreadsheets/d/1uRURAIl5ToN4uIg3sbCWQf7_3UsbXeeEodH30dQlWbo/edit#gid=0",
-        "url": "/abc/sa2b"
+        "url": "/abc/sa2b",
+        "meta": ["abc"]
     },
     {
         "redirect": "https://docs.google.com/spreadsheets/d/143s1dqBeCZNbhOwEer28qXfs0pLwhKIwj9B-DeT6t4I/edit#gid=0",
-        "url": "/abc/shadow"
+        "url": "/abc/shadow",
+        "meta": ["abc"]
     },
     {
         "redirect": "https://docs.google.com/spreadsheets/d/1TqnOs66T2E58m3a36FoRvRpna6-sPlWgQr31nEeGafY/edit#gid=0",
-        "url": "/abc/smw"
+        "url": "/abc/smw",
+        "meta": ["abc"]
     },
     {
         "redirect": "https://docs.google.com/document/d/1ypRVVRyf4x-v8GqCSmKYnicrfKSIjao3Y1ZVl52RIyM/edit",
-        "url": "/abc/sm64"
+        "url": "/abc/sm64",
+        "meta": ["abc"]
     },
     {
         "redirect": "https://pastebin.com/aKSppyne",
-        "url": "/abc/sm64ds"
+        "url": "/abc/sm64ds",
+        "meta": ["abc"]
     },
     {
         "redirect": "https://docs.google.com/spreadsheets/d/1j5OVfqqp97LhKHJja96h2SX5ZoFjaHiE7nvXgAYauMI/edit#gid=1593926981",
-        "url": "/abc/sms"
+        "url": "/abc/sms",
+        "meta": ["abc"]
     },
     {
         "redirect": "https://docs.google.com/spreadsheets/d/10GjH7cXf0cn7uMFX6IGB_G3JiDuvqMxZirVb4JwKRHA/edit#gid=0",
-        "url": "/abc/smg"
+        "url": "/abc/smg",
+        "meta": ["abc"]
     },
     {
         "redirect": "https://docs.google.com/spreadsheets/d/1eNmk8SPNcwq3l3ocL3FeLuDd_J5p6rgjNdM1jsM_UCA/edit#gid=0",
-        "url": "/abc/smg2"
+        "url": "/abc/smg2",
+        "meta": ["abc"]
     }
 ]
