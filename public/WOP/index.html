@@ -17,13 +17,10 @@
                 vertical-align: middle;
                 background-color: #000;
             }
-            video {
-                cursor: pointer;
-            }
         </style>
     </head>
     <body>
-        <video controls loop poster="poster.jpg" onloadstart="this.volume = 0.5" onclick="this.paused ? this.play() : this.pause()">
+        <video controls loop poster="poster.jpg" onloadstart="this.volume = 0.5">
             <source src="WOP.webm" type="video/webm">
         </video>
     </body>
