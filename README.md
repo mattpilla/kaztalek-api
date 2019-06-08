@@ -9,4 +9,4 @@ I'll write this readme in the future.
 ## Stuff to Know
 - I don't want to commit binary files, so the `public/files/` directory isn't under source control
 - The UI is disposable. It currently lives [here](https://github.com/mattpilla/kaztalek-ui)
-- All environment variables can be set in a `.env` file in the root directory
+- All environment variables can be set in a `.env` file in the root directory. Use `.env.example` as a guide.
